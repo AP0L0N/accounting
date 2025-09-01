@@ -3,3 +3,6 @@
 /vendor
 /node_modules
 .DS_Store
+
+/traefik/certs/accounting-craft.crt
+/traefik/certs/accounting-craft.key
