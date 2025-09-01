@@ -1,0 +1,25 @@
+dateModified: 1756631542
+email:
+  fromEmail: poje.tilen@gmail.com
+  fromName: Accounting
+  transportType: craft\mail\transportadapters\Sendmail
+meta:
+  __names__:
+    834a07d5-9704-4616-8218-1aa332f67a12: Homepage # Homepage
+    837013f5-b45d-4d7b-ba35-7b49e35ecc95: Accounting # Accounting
+    b40be752-e76d-44db-8f9b-1071ca83836a: Number # Number
+    e27274f4-a9db-432d-9f4e-528bc6445874: 'Page entry' # Page entry
+    f1b3e869-98d9-4d65-8306-0e3cfcebddd0: Accounting # Accounting
+system:
+  edition: solo
+  live: true
+  name: Accounting
+  schemaVersion: 5.8.0.3
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  require2fa: false
+  requireEmailVerification: true

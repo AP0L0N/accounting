@@ -1,0 +1,10 @@
+{
+    "name": "apolon/custommodule",
+    "description": "Custom module for Craft CMS",
+    "type": "craft-module",
+    "autoload": {
+        "psr-4": {
+            "modules\\custommodule\\": "src/"
+        }
+    }
+}

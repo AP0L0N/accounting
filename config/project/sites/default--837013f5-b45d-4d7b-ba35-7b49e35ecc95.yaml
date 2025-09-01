@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: en
+name: Accounting
+primary: true
+siteGroup: f1b3e869-98d9-4d65-8306-0e3cfcebddd0 # Accounting
+sortOrder: 1

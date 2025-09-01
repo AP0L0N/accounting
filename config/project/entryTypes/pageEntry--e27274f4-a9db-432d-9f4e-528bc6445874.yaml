@@ -1,0 +1,22 @@
+color: cyan
+description: null
+fieldLayouts:
+  0e40f3f4-c39b-4307-88ab-7e221fec54c2:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        name: Content
+        uid: 4ca3cb80-9568-49f5-92bb-f7b99d252f29
+        userCondition: null
+handle: pageEntry
+hasTitleField: false
+icon: shapes
+name: 'Page entry'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
