@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 1e373010-77f0-45a0-bedc-10411689b519 # Customer entry
+handle: customers
+maxAuthors: 1
+name: Customers
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  837013f5-b45d-4d7b-ba35-7b49e35ecc95: # Accounting
+    enabledByDefault: true
+    hasUrls: true
+    template: customers/_entry.twig
+    uriFormat: 'customers/{slug}'
+type: channel

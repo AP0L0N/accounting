@@ -1,0 +1,160 @@
+columnSuffix: null
+handle: invoiceItems
+instructions: null
+name: 'Invoice items'
+searchable: false
+settings:
+  addRowLabel: 'Add a row'
+  columns:
+    __assoc__:
+      -
+        - col1
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Item title'
+            -
+              - handle
+              - itemTitle
+            -
+              - width
+              - ''
+            -
+              - type
+              - multiline
+      -
+        - col5
+        -
+          __assoc__:
+            -
+              - heading
+              - Quantity
+            -
+              - handle
+              - quantity
+            -
+              - width
+              - ''
+            -
+              - type
+              - number
+      -
+        - col4
+        -
+          __assoc__:
+            -
+              - heading
+              - Unit
+            -
+              - handle
+              - unit
+            -
+              - width
+              - ''
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - KPL
+                    -
+                      - value
+                      - kpl
+                    -
+                      - default
+                      - true
+      -
+        - col3
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Price per unit'
+            -
+              - handle
+              - pricePerUnit
+            -
+              - width
+              - ''
+            -
+              - type
+              - number
+      -
+        - col2
+        -
+          __assoc__:
+            -
+              - heading
+              - VAT
+            -
+              - handle
+              - vat
+            -
+              - width
+              - ''
+            -
+              - type
+              - select
+            -
+              - options
+              -
+                -
+                  __assoc__:
+                    -
+                      - label
+                      - 22%
+                    -
+                      - value
+                      - '22'
+                    -
+                      - default
+                      - true
+      -
+        - col6
+        -
+          __assoc__:
+            -
+              - heading
+              - 'Price with VAT'
+            -
+              - handle
+              - priceWithVAT
+            -
+              - width
+              - ''
+            -
+              - type
+              - number
+  defaults:
+    -
+      __assoc__:
+        -
+          - col1
+          - ''
+        -
+          - col5
+          - '1'
+        -
+          - col4
+          - kpl
+        -
+          - col3
+          - ''
+        -
+          - col2
+          - '22'
+        -
+          - col6
+          - ''
+  maxRows: null
+  minRows: 1
+  staticRows: false
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Table

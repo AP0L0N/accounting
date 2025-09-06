@@ -1,13 +1,23 @@
-dateModified: 1756631542
+dateModified: 1757148536
 email:
   fromEmail: poje.tilen@gmail.com
   fromName: Accounting
   transportType: craft\mail\transportadapters\Sendmail
 meta:
   __names__:
+    1e373010-77f0-45a0-bedc-10411689b519: 'Customer entry' # Customer entry
+    4be0ba9e-9892-4aa9-9910-2d1f01593400: Invoices # Invoices
     834a07d5-9704-4616-8218-1aa332f67a12: Homepage # Homepage
     837013f5-b45d-4d7b-ba35-7b49e35ecc95: Accounting # Accounting
+    925716c4-f5fb-48f8-ae8d-0df5f5e7f393: 'Invoice entry' # Invoice entry
+    3299667e-460d-44c0-91d7-95cc79508a62: Date # Date
+    28270454-26a8-4844-a879-9085bae8022e: Customer # Customer
+    a96f4bf0-35d6-4fca-9495-3e2e891acf9a: Customers # Customers
+    a99f4601-25de-427e-bed8-bdf84dc85829: 'Currency days' # Currency days
+    afc27d54-4cdc-4b5e-b90d-5690ec649e48: Switch # Switch
+    b4c7eed4-785c-4878-8e66-ccc94996c8c0: 'Invoice items' # Invoice items
     b40be752-e76d-44db-8f9b-1071ca83836a: Number # Number
+    c8eb3b44-7817-431b-a1e3-877e236728cb: 'Single-line text' # Single-line text
     e27274f4-a9db-432d-9f4e-528bc6445874: 'Page entry' # Page entry
     f1b3e869-98d9-4d65-8306-0e3cfcebddd0: Accounting # Accounting
 system:

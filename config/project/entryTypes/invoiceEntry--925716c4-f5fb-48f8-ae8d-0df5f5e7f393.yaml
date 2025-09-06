@@ -1,0 +1,246 @@
+color: cyan
+description: null
+fieldLayouts:
+  3ec35eda-aed1-49ce-b4e1-b183e9c3f9a8:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-09-06T08:48:56+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: afc27d54-4cdc-4b5e-b90d-5690ec649e48 # Switch
+            handle: proFormaInvoice
+            includeInCards: false
+            instructions: null
+            label: 'Pro forma invoice'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1e3dbb9f-c688-4ece-9f88-89ff4dff342f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-06T07:29:12+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 28270454-26a8-4844-a879-9085bae8022e # Customer
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e2caca4d-2fad-490e-bf9d-66d20bd81992
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-06T07:29:12+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b4c7eed4-785c-4878-8e66-ccc94996c8c0 # Invoice items
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4d434632-94f9-48a9-b3d8-b4f320a8de50
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-06T07:42:09+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3299667e-460d-44c0-91d7-95cc79508a62 # Date
+            handle: dateOfService
+            includeInCards: false
+            instructions: null
+            label: 'Date of service'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 013ef750-6f07-45ad-bdfe-dba0587e38c8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-06T07:42:09+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: a99f4601-25de-427e-bed8-bdf84dc85829 # Currency days
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: bc26c245-df58-4cca-a305-b0cfd2e6f64e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: c12ecd05-52ba-4c02-9db2-b9d87c5dbe24
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-06T07:22:39+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 46a436f1-af06-40d5-a464-ae08fd26b3dd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-06T07:42:09+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 3299667e-460d-44c0-91d7-95cc79508a62 # Date
+            handle: currency
+            includeInCards: false
+            instructions: null
+            label: Currency
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 61d8eba1-eba8-4070-9288-9bc0a51f98d7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-06T07:52:08+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b40be752-e76d-44db-8f9b-1071ca83836a # Number
+            handle: invoiceNumber
+            includeInCards: false
+            instructions: null
+            label: 'Invoice number'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c9be91f8-e5b9-40f6-be59-c2c892a432c3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-06T07:36:04+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c8eb3b44-7817-431b-a1e3-877e236728cb # Single-line text
+            handle: invoiceNumberFull
+            includeInCards: false
+            instructions: null
+            label: 'Invoice number full'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: c8f8298c-324a-4c91-a903-bf2c7deaf9aa
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-06T07:49:14+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b40be752-e76d-44db-8f9b-1071ca83836a # Number
+            handle: priceWithoutVAT
+            includeInCards: false
+            instructions: null
+            label: 'Price without VAT'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 66ddeb02-3908-4801-8e27-73aa64b045f9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-06T07:49:14+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b40be752-e76d-44db-8f9b-1071ca83836a # Number
+            handle: VATPrice
+            includeInCards: false
+            instructions: null
+            label: 'VAT price'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 08dbdf1d-0f41-4e36-9d20-e422c997ef86
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-06T07:49:14+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: b40be752-e76d-44db-8f9b-1071ca83836a # Number
+            handle: total
+            includeInCards: false
+            instructions: null
+            label: Total
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 653e91cd-fa01-4818-8c15-31ac9acd7fe9
+            userCondition: null
+            warning: null
+            width: 100
+        name: Meta
+        uid: 648ccc69-5c36-4954-bed7-a783cc300395
+        userCondition: null
+handle: invoiceEntry
+hasTitleField: true
+icon: receipt
+name: 'Invoice entry'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

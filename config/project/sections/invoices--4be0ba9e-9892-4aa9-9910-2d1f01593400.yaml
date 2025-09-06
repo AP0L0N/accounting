@@ -1,0 +1,28 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 925716c4-f5fb-48f8-ae8d-0df5f5e7f393 # Invoice entry
+handle: invoices
+maxAuthors: 1
+name: Invoices
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primary entry page'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  837013f5-b45d-4d7b-ba35-7b49e35ecc95: # Accounting
+    enabledByDefault: true
+    hasUrls: true
+    template: pages/invoice
+    uriFormat: 'invoices/{slug}'
+type: channel

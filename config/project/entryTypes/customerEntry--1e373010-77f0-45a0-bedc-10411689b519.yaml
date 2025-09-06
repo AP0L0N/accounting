@@ -1,0 +1,87 @@
+color: cyan
+description: null
+fieldLayouts:
+  4fc6d54b-d5c8-425a-b973-cba4992ed97b:
+    cardThumbAlignment: end
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            dateAdded: '2025-09-06T07:28:30+00:00'
+            disabled: false
+            elementCondition: null
+            id: null
+            includeInCards: false
+            inputType: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            providesThumbs: false
+            readonly: false
+            required: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: b294e4dc-31b6-48f6-a747-ed5e6b630c8b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-06T07:30:48+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c8eb3b44-7817-431b-a1e3-877e236728cb # Single-line text
+            handle: address
+            includeInCards: false
+            instructions: null
+            label: Address
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 372295b4-4cf6-4802-8816-3634408a0859
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-09-06T07:30:48+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: c8eb3b44-7817-431b-a1e3-877e236728cb # Single-line text
+            handle: VATNumber
+            includeInCards: false
+            instructions: null
+            label: 'VAT number'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 87294e99-19fc-4c87-8f31-1b33fa05da49
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: b16e766c-aca0-49d4-b5a2-d718d6a14ce0
+        userCondition: null
+handle: customerEntry
+hasTitleField: true
+icon: building
+name: 'Customer entry'
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
