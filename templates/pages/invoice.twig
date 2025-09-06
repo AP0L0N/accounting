@@ -130,10 +130,10 @@
 
 								<td style="font-size: 13px;padding-top: 70px;line-height:1.5">
 									{% if entry.proFormaInvoice == false %}
-										Št. računa #: {{ entry.invoiceNumberFull }}<br />
+										<strong>Št. računa #: {{ entry.invoiceNumberFull }}</strong><br />
 										Datum izdanega računa: {{ entry.postDate | date("j. n. Y") }}<br />
 										Datum opravljene storitve: {{ entry.dateOfService | date("j. n. Y") }}<br />
-										<strong>Valuta: {{ entry.currency | date("j. n. Y") }}</strong>
+										Valuta: {{ entry.currency | date("j. n. Y") }}
 									{% else %}
 										<strong>Predračun:</strong> Informativni izpis<br />
 										Datum izdanega predračuna: {{ entry.postDate | date("j. n. Y") }}
