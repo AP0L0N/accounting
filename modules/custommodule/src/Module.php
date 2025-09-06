@@ -63,7 +63,12 @@ class Module extends BaseModule
                     if ($entry->proFormaInvoice) {
                         $entry->setFieldValue('invoiceNumberFull', 'predračun');
                         $entry->setFieldValue('invoiceNumber', null);
-                        
+
+                    // Starting invoice of this app 
+                    } elseif ($entry->id === 6) {
+                        $entry->setFieldValue('invoiceNumberFull', '12 / 2025');
+                        $entry->setFieldValue('invoiceNumber', 12);
+
                     } else {
                         // 1. Get and set invoice number
                         $currentYear = date('Y');
