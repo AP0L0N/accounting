@@ -1,4 +1,4 @@
-{% if currentUser is null or currentUser.isGuest %}
+{% if currentUser is null %}
     {% redirect(cpUrl('login')) %}
 {% endif %}
 
