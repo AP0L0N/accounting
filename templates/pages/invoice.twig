@@ -233,7 +233,7 @@
 
                     <tr class="item">
                         <td style="max-width: 40px">{{ loop.index }}</td>
-                        <td style="text-align: left;width: 240px;padding-right: 30px;">{{ item.itemTitle }}</td>
+                        <td style="text-align: left;width: 240px;padding-right: 30px;">{{ item.itemTitle | nl2br }}</td>
                         <td>{{ item.quantity }}</td>
                         <td>{{ item.unit }}</td>
                         <td>{{ (item.quantity * item.pricePerUnit) | number_format(2, ',', '.') }} €</td>
