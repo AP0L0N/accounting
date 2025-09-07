@@ -199,7 +199,10 @@
                         {% set customer = entry.customer.one() %}
                         <strong>{{ customer ? customer.title : 'Unknown Customer' }}</strong><br>
                         {{ customer ? customer.address : '' }} <br>
-                        Davčna številka: {{ customer ? customer.VATNumber : '' }}
+
+						{% if customer and customer.VATNumber is not empty %}
+                        	Davčna številka: {{ customer.VATNumber }}
+						{% endif %}
                     </td>
 
 					<td></td>

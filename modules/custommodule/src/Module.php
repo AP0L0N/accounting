@@ -147,7 +147,8 @@ class Module extends BaseModule
                     $customerTitle = $customer ? $customer->title : 'Unknown Customer';
                     $firstItemTitle = !empty($invoiceItems) ? ($invoiceItems[0]['itemTitle'] ?? 'No items') : 'No items';
 
-                    $entry->title = $entry->invoiceNumberFull . ' - ' . $customerTitle . ' - ' . $firstItemTitle;
+                    $fullTitle = $entry->invoiceNumberFull . ' - ' . $customerTitle . ' - ' . $firstItemTitle;
+                    $entry->title = mb_strlen($fullTitle) > 50 ? mb_substr($fullTitle, 0, 50) . '...' : $fullTitle;
                 }
             }
         );
