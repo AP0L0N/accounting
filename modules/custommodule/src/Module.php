@@ -36,7 +36,7 @@ class Module extends BaseModule
             UrlManager::class,
             UrlManager::EVENT_REGISTER_CP_URL_RULES,
             function (RegisterUrlRulesEvent $event) {
-                
+                // clear the data from
             }
         );
 
